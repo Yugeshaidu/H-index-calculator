@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>H-Index Calculator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>H-Index Calculator</h1>
+    <div>
+      <label for="papers">Enter the total number of papers:</label>
+      <input type="number" id="papers" required>
+    </div>
+    <div>
+      <label for="citations">Enter the citation counts (comma-separated):</label>
+      <input type="text" id="citations" required>
+    </div>
+    <button onclick="calculateHIndex()">Calculate H-Index</button>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
